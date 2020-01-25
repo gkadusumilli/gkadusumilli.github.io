@@ -1,6 +1,6 @@
 ---
 layout: posts
-permalink: /data-wrangling/
+permalink: /machinelearning/
 title: "Introduction to Convolutional Neural Network"
 author_profile: true
 header:
