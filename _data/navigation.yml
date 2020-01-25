@@ -2,13 +2,13 @@
 main:
 
   - title: "Image Processing"
-    url: /archive
+    url: /Imageprocessing/
   - title: "Machine Learning"
-    url: /machinelearning
+    url: /machinelearning/
   - title: "About"
     url: /about/
   - title: "Papers Review"
-    url: /papersreview
+    url: /papersreview/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
