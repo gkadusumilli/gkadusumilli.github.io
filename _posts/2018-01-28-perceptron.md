@@ -1,10 +1,10 @@
 ---
 title: "Introduction to Convolutional Network"
 date: 2020-01-26
-tags: [machinelearning, Neural Network, Deep Learning]
+tags: [machine learning, Neural Network, Deep Learning]
 header:
   image: "/images/perceptron/percept.jpg"
-excerpt: "Data Wrangling, Data Science, Messy Data"
+excerpt: "Machine learning, Neural Network, Deep Learning"
 mathjax: "true"
 ---
 
