@@ -1,9 +1,15 @@
 # main links
 main:
+
+  - title: "Image Processing"
+    url: /archive
+  - title: "Machine Learning"
+    url: /machinelearning
   - title: "About"
     url: /about/
-  - title: "Data Wrangling Projects"
-    url: /data-wrangling/
+  - title: "Papers Review"
+    url: /papersreview
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
