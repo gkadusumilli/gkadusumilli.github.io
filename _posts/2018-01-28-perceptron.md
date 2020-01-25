@@ -4,7 +4,7 @@ date: 2020-01-26
 tags: [machine learning, Neural Network, Deep Learning]
 header:
   image: "/images/perceptron/percept.jpg"
-excerpt: "Machine learning, Neural Network, Deep Learning"
+excerpt: "machinelearning, Neural Network, Deep Learning"
 mathjax: "true"
 ---
 

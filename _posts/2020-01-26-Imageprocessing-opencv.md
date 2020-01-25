@@ -1,10 +1,10 @@
 ---
 title: "OpenCV"
 date: 2020-01-26
-tags: [OpenCV, Neural Network, Deep Learning]
+tags: [OpenCV]
 header:
   image: "/images/perceptron/percept.jpg"
-excerpt: "OpenCV, Computer Vision"
+excerpt: "OpenCV, Imageprocessing"
 mathjax: "true"
 ---
 
