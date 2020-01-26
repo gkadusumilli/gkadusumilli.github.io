@@ -1,7 +1,7 @@
 ---
-title: "Introduction to Convolutional Network"
+title: "Suggestions for Data Collection"
 date: 2020-01-26
-tags: [Data Collection Data Processing Input CNN]
+tags: [Data Collection, Data Processing, Input, CNN]
 header:
   image: "/images/Data_collection/Data_header.jpg"
 excerpt: "Data Collection, Data Processing, Input"
