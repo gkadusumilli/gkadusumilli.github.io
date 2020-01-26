@@ -1,6 +1,6 @@
 ---
 layout: categories
-permalink: /machine-learning/
+permalink: /machinelearning/
 title: "Introduction to Convolutional Neural Network"
 author_profile: true
 header:
