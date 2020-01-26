@@ -7,8 +7,8 @@ main:
     url: /archive/
   - title: "About"
     url: /about/
-  - title: "categories"
-    url: /categories/
+  - title: "Image Processing"
+    url: /Imageprocessing/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
