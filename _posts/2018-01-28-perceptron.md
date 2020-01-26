@@ -70,7 +70,7 @@ Why Padding is Important?
 
 Zero padding denotes the process of adding P zeros to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes detailed below:
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/zero.jpg" alt="Zero Padding">
+<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/zero.jfif" alt="Zero Padding">
 
 ## Activation layer
 After each convolution, it is a convention to apply a non-linear layer( or activation layer) immediately. The purpose of the Activation layer is to introduce nonlinearity to a system that basically computing linear operations during the conv layers( just element-wise multiplications and summations).
@@ -80,7 +80,7 @@ In the past, nonlinear functions like tanh and sigmoid were used, but researcher
 
 ReLU variants are summarized in the table below
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/relu.jpg" alt="Rectified Linear Unit">
+<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/relu.jfif" alt="Rectified Linear Unit">
 
 To know more about [ReLU](https://medium.com/analytics-vidhya/activation-function-relu-8cad6eb1698e)
 
@@ -99,7 +99,7 @@ finally, the network should be able to provide the right classification or outpu
 
 The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. if present, FC layers are usually found towards the end of CNN architecture and can be used to optimize objectives such as class scores.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/FC.jpg" alt="Fully Connected Layer">
+<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/FC.jfif" alt="Fully Connected Layer">
 
 What do CNN layers learn?
 
