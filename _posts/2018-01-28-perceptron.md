@@ -21,6 +21,7 @@ In this article, we will understand the concepts of Convolutional Neural Network
 <img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/feature_map.png" alt="feature map">
 
 ## Feature Map
+
 after the filters have passed over the image, a feature map is generated for each filter. These are taken through an activation function.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/map_1.png" alt="feature map">
@@ -65,54 +66,47 @@ Why Padding is Important?
 
 * Padding allows for designing deeper networks. without padding, a reduction in volume size would reduce too quickly.
 
-## H2 Heading
+## Zero-padding
 
-### H3 Heading
+Zero padding denotes the process of adding P zeros to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes detailed below:
 
-Here's some basic text.
+<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/zero.jpg" alt="Zero Padding">
 
-And here's some *italics*
+## Activation layer
+After each convolution, it is a convention to apply a non-linear layer( or activation layer) immediately. The purpose of the Activation layer is to introduce nonlinearity to a system that basically computing linear operations during the conv layers( just element-wise multiplications and summations).
 
-Here's some **bold** text.
+### Rectified Linear Unit (ReLU)
+In the past, nonlinear functions like tanh and sigmoid were used, but researchers found out that ReLU layers work far better because the network is able to train a lot faster (because of computational efficiency) without making a significant difference to the accuracy. it also helps to alleviate the vanishing gradient problem at the lower layers of the network.
 
-What about a [link](https://github.com/dataoptimal)?
+ReLU variants are summarized in the table below
 
-Here's a bulleted list:
-* First item
-+ Second item
-- Third item
+<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/relu.jpg" alt="Rectified Linear Unit">
 
-Here's a numbered list:
-1. First
-2. Second
-3. Third
+To know more about [ReLU](https://medium.com/analytics-vidhya/activation-function-relu-8cad6eb1698e)
 
-Python code block:
-```python
-    import numpy as np
+## Softmax
 
-    def test_function(x, y):
-      z = np.sum(x,y)
-      return z
-```
+Softmax step can be seen as a generalized logistic function that takes as input a vector of scores and outputs a vector of output probability.
 
-R code block:
-```r
-library(tidyverse)
-df <- read_csv("some_file.csv")
-head(df)
-```
+softmax produce the likelihoods of an image belonging to a particular class
 
-Here's some inline code `x+y`.
+## Dropout
+Dropout is used to regularize the fully connected layers within CNN. Dropout layers solve the problem of overfitting, where after training, the weights of the network doesn't perform well when given new examples. The idea of dropout is simple. this layer "drops out" a random set of activations in that layer by setting them to zero.
 
-Here's an image:
+finally, the network should be able to provide the right classification or output for a specific example even if some of the activations are dropped out. it makes sure that the network isn't getting too "fitted" to the training data and thus helps alleviate the overfitting problem.
 
+## Fully Connected (FC)
 
-Here's another image using Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg)
+The fully connected layer (FC) operates on a flattened input where each input is connected to all neurons. if present, FC layers are usually found towards the end of CNN architecture and can be used to optimize objectives such as class scores.
 
-Here's some math:
+<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/FC.jpg" alt="Fully Connected Layer">
 
-$$z=x+y$$
+What do CNN layers learn?
 
-You can also put it inline $$z=x+y$$
+* Each CNN layer learns filters of increasing complexity.
+
+* The first layers learn basic feature detection filters: Edges, Corners, etc.
+
+* The middle layers learn filters the detect parts of objects. For face detection, they might learn to respond to eyes, noses, etc.
+
+* The last layers have higher representations: they learn to recognize full objects, with different shapes, and positions.
