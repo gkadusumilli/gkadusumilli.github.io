@@ -68,7 +68,7 @@ Why Padding is Important?
 
 ## Zero-padding
 
-Zero padding denotes the process of adding P zeros to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes detailed below:
+Zero padding denotes the process of adding P zeros to each side of the boundaries of the input. This value can either be manually specified or automatically set through one of the three modes mentioned below:
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/zero.jpg" alt="Zero Padding">
 
