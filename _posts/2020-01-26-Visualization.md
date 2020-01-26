@@ -3,7 +3,8 @@ title: "Tutorial on Data Visualization with Matplotlib with Python"
 date: 2020-01-26
 tags: [Data Visualization, Matplotlib, machine learning, Neural Network, Deep Learning]
 header:
-  image: "/images/perceptron/CNN.jpg"
+  image: "/images/matplotlib/matplotlib_header.png"
+  caption: "[Pic courtesy](https://matplotlib.org)"
 excerpt: "Data Visualization, Matplotlib, contour, machinelearning, Neural Network, Deep Learning"
 mathjax: "true"
 ---
@@ -71,7 +72,7 @@ plt.hist(samples_2,bins=bins,alpha=0.5,label='samples 2')
 plt.legend(loc='upper left')
 plt.show()
 ```
-<img src="{{ site.url }}{{ site.baseurl }}/images/matplotlib/blend.png" alt="Result 3: Blending of Histogram>
+<img src="{{ site.url }}{{ site.baseurl }}/images/matplotlib/blend.png" alt="Result 3: Blending of Histogram">
 
 ### Scatter Plots
 ```python
