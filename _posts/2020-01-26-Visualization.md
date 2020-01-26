@@ -58,7 +58,7 @@ print(samples[:30])
 plt.hist(samples,bins=50)
 plt.show()
 ```
-<img src="{{ site.url }}{{ site.baseurl }}/images/matplotlib/gaussian.png" alt="Result 2: Histogram">
+<img src="{{ site.url }}{{ site.baseurl }}/images/matplotlib/gaussian.png" alt= "Result 2: Histogram">
 
 ### Blending two Histograms on the same plot
 ```python
@@ -72,14 +72,15 @@ plt.hist(samples_2,bins=bins,alpha=0.5,label='samples 2')
 plt.legend(loc='upper left')
 plt.show()
 ```
-<img src="{{ site.url }}{{ site.baseurl }}/images/matplotlib/blend.png" alt="Result 3: Blending of Histogram">
+<img src="{{ site.url }}{{ site.baseurl }}/images/matplotlib/blend.png" alt= "Result 3: Blending of Histogram">
 
 ### Scatter Plots
 ```python
 plt.scatter(samples_1,samples_2,alpha=0.1)
 plt.show()
 ```
-<img src="{{ site.url }}{{ site.baseurl }}/images/matplotlib/lin_quad.png" alt="Result 4: Scatter Plots">
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/matplotlib/scatter.png" alt="Result 4: Scatter Plots">
 
 # Part-2
 

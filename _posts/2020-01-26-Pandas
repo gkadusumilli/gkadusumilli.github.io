@@ -1,0 +1,126 @@
+---
+title: "Tutorial on Pandas"
+date: 2020-01-26
+tags: [Data, pandas, machine learning, Neural Network, Deep Learning]
+header:
+  image: "/images/matplotlib/matplotlib_header.png"
+  caption: "[Pic courtesy](https://matplotlib.org)"
+excerpt: "Data, pandas, contour, machinelearning, Neural Network, Deep Learning"
+mathjax: "true"
+---
+
+# Load Some Example Data
+```python
+import pandas as import pd
+df=pd.read_csv(''https://raw.githubusercontent.com/rasbt/python_reference/master/Data/some_soccer_data.csv'')
+#print first Elements from the CSV
+df.head(10)
+```
+# Renaming Column names to lowercase
+```python
+df.columns=[c.lower() for c in df.columns]
+df.tail(3)
+```
+
+# Renaming particular columns
+```python
+df=df.rename(columns={'p':'points', 'gp':'games','sot':'shots on target','g':'goals','ppg':'points_per_game','a':'assists'})
+df.tail(3)
+```
+
+# Changing Values in columns
+```python
+#Processing 'salary' column
+df['salary']=df['salary'].apply(lambda x:x.strip('$m'))
+df.tail()
+```
+
+# Adding a new column
+
+```python
+df['team']=pd.Series('',index=df.index)
+
+#or
+df.insert(loc=8,column='position',value='')
+df.tail(3)
+```
+
+# Applying Functions to multiple Columns (Lowercasing Multple Columns )
+
+```python
+cols=['player', 'position', 'team']
+df[cols]=df[cols].applymap(lambda x:x.lower())
+df.head()
+```
+# Missing values aka NaNs (Not a Number)
+
+## Counting Rows with NaNs
+
+```python
+nans=df.shape[0]-df.dropna().shape[0]
+print('%d rows have missing values' % nans)
+```
+
+##Selecting NaN Rows
+
+```python
+#selecting all rows that have NaN's in the 'assists' column
+df[df['assists'].isnull()]
+```
+
+## Selecting non-NaN rows
+
+```python
+df[df['assits'].notnull()]
+```
+
+## Filling NaN Rows with value 0
+
+```python
+df.fillna(value=0, inplace=True)
+print(df)
+```
+## Filling cells with the Data
+
+```python
+df.loc[df.index[-1],'player']='new player'
+df.loc[df.index[-1],'salary']=12.3
+df.tail(3)
+```
+## Sorting and Reindexing Data Frames
+
+```python
+#sorting the Dataframe by a certain column (from highest to lowest)
+df.sort_values('goals', ascending=False, inplace=True)
+df.head()
+```
+## Updating columns
+
+```python
+df_2=df.copy()
+df_2.loc[0:2, 'salary']=[20.0,15.0]
+df_2.head(3)
+```
+## Chaining Conditions-Using Bitwise Operators
+
+```python
+#listing players from arsenal and chelsea Teams
+df[(df['team']=='arsenal')|(df['team']=='chelsea')]
+
+# selecting forwards from arsenal only
+df[(df['team']=='arsenal')&(df['position']=='forward')]
+```
+## if-tests
+iif-test i pandas, create an array of 1's and 0's depending on condition. e.g, if **val** less than 0.5->0, else ->1. usig the boolean mask. since **True** and **false** are integers after all
+
+```python
+int(True)
+
+import pandas as pd
+a=[[2.,.3,4.,5.],[.8,.03,0.02,5.]]
+df=pd.DataFrame(a)
+print(df)
+
+df1=df<=0.05
+print(df1)
+```
