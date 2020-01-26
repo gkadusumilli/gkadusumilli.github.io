@@ -1,14 +1,14 @@
 # main links
 main:
 
-  - title: "Image Processing"
-    url: /Imageprocessing/
   - title: "Machine Learning"
-    url: /machinelearning/
+    url: /Machinelearning/
+  - title: "All Posts"
+    url: /archive/
   - title: "About"
     url: /about/
-  - title: "Papers Review"
-    url: /papersreview/
+  - title: "categories"
+    url: /categories/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
