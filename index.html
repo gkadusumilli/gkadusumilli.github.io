@@ -4,3 +4,13 @@ author_profile: true
 header:
   image: "/images/front.jpg"
 ---
+
+
+
+<a href="archive"><h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3></a>
+
+{% for post in site.posts limit:20 %}
+{% include archive-single.html %}
+{% endfor %}
+
+<a href="archive"><h3 class="archive__subtitle" style="float:right">More</h3></a>
