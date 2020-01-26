@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: categories
 permalink: /machine-learning/
 title: "Introduction to Convolutional Neural Network"
 author_profile: true

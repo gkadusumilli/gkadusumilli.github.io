@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: categories
 permalink: /Imageprocessing/
 title: "OpenCV"
 author_profile: true
