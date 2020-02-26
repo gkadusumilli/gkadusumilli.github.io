@@ -1,0 +1,82 @@
+---
+title: "Data pre-Processing and data augmentation"
+date: 2020-01-26
+tags: [Data, machine learning, Neural Network, Deep Learning]
+header:
+  image: "/images/matplotlib/pandas_header.png"
+  #caption: "[Pic courtesy](https://matplotlib.org)"
+excerpt: "Data, pandas, contour, machinelearning, Neural Network, Deep Learning"
+mathjax: "true"
+---
+## What is data augmentation ?
+
+
+Term "augmentation"- The action of making or becoming greater in size or amount.
+
+**Data augmentation** mean increasing the amount of Data by applying random transformation, so that our model would never see twice the exact same picture.
+
+## Why Data augmentation is needed ?
+
+* To increase the performance of deep learning neural networks often improves with the amount of data available.
+* To prevent overfitting and helps the model generalize better
+
+## Data augmentation techniques
+
+1. **Flip**: Flipping images on horizontal or vetical axis
+
+2. **Rotation**: Rotate an image with certain degree
+
+3. **Crop**: Randomly, crop a section from a given image and resize
+
+4. **Add Noise**: Adding Gaussian noise to a given image
+
+5. **Color Jittering**: Random color manipulation
+
+
+# Data augmentation using Keras
+
+In keras this can be done via the *keras.preprocessing.image.ImageDataGenerator* class. This class allows
+
+* configure random transformations and normalization operations to be done on your image data during training.
+
+Let us look at an example:
+
+```python
+from keras.preprocessing.image import ImageDataGenerator, load_img, img_to_array
+import os
+datagen= ImageDataGenerator(
+rotation_range=40,
+width_shift_range=0.2,
+height_shift_range=0.2,
+rescale=1./255,
+shear_range=0.2,
+horizontal_flip=True,
+fill_mode='nearest'
+)
+
+#creating a directory to save results
+
+if not os.path.exists('data_aug'):
+    os.makedirs('data_aug')
+
+img=load_img('C:/Users/Asus/Desktop/car.jpg')
+print(img)
+x=img_to_array(img) #this is a numpy img_to_array
+x=x.reshape((1,) + x.shape)
+
+# the .flow() command below generates batches of randomly transformed images
+# saves the results to the 'data_aug' directory
+
+i=1
+for batch in datagen.flow(x, batch_size=1,
+                          save_to_dir='data_aug', save_prefix='car', save_format='jpeg'):
+
+
+    i +=1
+    if i > 20:
+
+        break #otherwise the generator would loop indefinitely
+```
+Here's what we get -- this is our data strategy looks like:
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/matplotlib/data_aug.png" alt="fig 1: Data augmentation ">
