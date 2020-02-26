@@ -109,7 +109,7 @@ def build_discriminator():
   
     return discriminator
     
-    ```
+```
     
  # Step 4: Building a GAN Networks
     
@@ -136,13 +136,14 @@ def gan_net(generator, discriminator):
     #compiling the GAN Network
     gan.compile(loss='binary_crossentropy',optimizer='adam')
     
-    ```
+  ```
  # Step5: Plotting the generated images
 
 The below method generates plots for the images created by the generator form the normally distributed noise input
-
-#method to plot the images
 ```python
+#method to plot the images
+
+
 def plot_images(epoch, generator,dim=(10,10),figsize=(10,10)):
     #generate a normally distributed noise of shape (100x100)
     noise=np.random.normal(loc=0,scale=1,size=[100,100])
@@ -168,6 +169,7 @@ def plot_images(epoch, generator,dim=(10,10),figsize=(10,10)):
         plt.tight_layout()
 ```
 # Step6: Method for training
+
 ```python
 #Training method with training set, default epoch and default batch_size as arguments.
 
