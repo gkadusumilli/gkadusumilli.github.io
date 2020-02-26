@@ -3,9 +3,8 @@ title: "Building a Generative Adversarial Network from Scratch"
 date: 2020-01-26
 tags: [GAN, Data augmentation, machine learning, Neural Network, Deep Learning]
 header:
-  image: "/images/matplotlib/pandas_header.png"
-  #caption: "[Pic courtesy](https://matplotlib.org)"
-excerpt: "Data, pandas, contour, machinelearning, Neural Network, Deep Learning"
+  
+excerpt: "GAN, Data augmentation,machinelearning, Neural Network, Deep Learning"
 mathjax: "true"
 ---
 In my previous [Article](https://gkadusumilli.github.io/Dataaug/) we have learnt how data augmentation can be done using traditional techniques
@@ -111,7 +110,7 @@ def build_discriminator():
     
 ```
     
- # Step 4: Building a GAN Networks
+# Step 4: Building a GAN Networks
     
  * This code creates a GAN by stacking the generator and discriminator networks
 
@@ -137,7 +136,7 @@ def gan_net(generator, discriminator):
     gan.compile(loss='binary_crossentropy',optimizer='adam')
     
   ```
- # Step5: Plotting the generated images
+# Step5: Plotting the generated images
 
 The below method generates plots for the images created by the generator form the normally distributed noise input
 ```python
