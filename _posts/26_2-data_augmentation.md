@@ -79,4 +79,4 @@ for batch in datagen.flow(x, batch_size=1,
 ```
 Here's what we get -- this is our data strategy looks like:
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/matplotlib/data_aug.jpeg" alt="fig 1: Data augmentation ">
+<img src="{{ site.url }}{{ site.baseurl }}/images/matplotlib/data_aug.JPG" alt="fig 1: Data augmentation ">
