@@ -5,8 +5,30 @@ header:
   image: "/images/about.jpg"
 ---
 
-I'm Gopalakrishna Adusumilli. Pursuing M.Tech with specialization in Digital Electronics at KLE Technological University, Hubli. Currently I am working as an Intern at Continental AG, Bangalore, Karnataka.
+{% include base_path %}
 
-For the past two years, I have been actively studying and working on the domains of Image Processing, Computer Vision, and Machine/Deep Learning.
+Education
+======
+* M.Tech in KLE Technological University, 2018-2020
+* B.E Electronics & Communication in Visvesvaraya Technological University
 
-if something Interesting get in touch with me....
+Work experience
+======
+* ADAS Intern @ Continental AG, Bangalore, Dec 2019-Present
+
+  * Role
+    * Developing 3D Object Detection algorithm for Point Cloud Data  
+
+Skills
+======
+* DL Frameworks- Tensorflow, Pytorch
+* Architectures- CNN, RNN, LSTM, Auto Encoders
+* Programming Languages- Python
+* OpenVINO
+
+Courses
+======
+* Robotic Vision from Queensland University, Australia under the mentorship of Prof.Peter Corke
+* Crash course on python, Coursera offered by Google
+* Machine Learing Course, Courseera offered by Prof. Andrew Ng
+
