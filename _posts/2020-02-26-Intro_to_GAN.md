@@ -9,6 +9,8 @@ mathjax: "true"
 ---
 In my previous [Article](https://gkadusumilli.github.io/Dataaug/) we have learnt how data augmentation can be done using traditional techniques
 
+In this blog post I demonstrate how we can create new images of a distribution of images with a Generative Adversarial Network (GAN)
+
 GAN is a architecture which makes use of multiple neural networks that compete against each other to make the predictions.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/matplotlib/gan.png" alt="fig 1: GAN Architecture ">
