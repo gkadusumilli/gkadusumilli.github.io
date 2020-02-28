@@ -5,8 +5,6 @@ header:
   image: "/images/about.jpg"
 ---
 
-{% include base_path %}
-
 Education
 ======
 * M.Tech in KLE Technological University, 2018-2020
