@@ -16,7 +16,7 @@ Work experience
 
    * Working in R&D unit of ADAS under the mentorship of Dr.Venu gopalakrishna.
    * Developing Deep learning algorithm on point cloud based 3D LiDAR for vehicle detection.
-   * working multi modal sensors fusion of Camera, LiDAR & Camera, RADAR for object detection.
+   * working on multi modal sensors fusion approach of Camera, LiDAR & Camera, RADAR for object detection.
    
 
 Skills
