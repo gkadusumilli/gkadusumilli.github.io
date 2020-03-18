@@ -7,15 +7,15 @@ header:
 
 Education
 ======
-* M.Tech in KLE Technological University, 2018-2020
+* M.Tech(Digital Electronics) in KLE Technological University, with <a href="https://scholar.google.co.in/citations?user=xBaqwmkAAAAJ&hl=en" title="Dr. Uma K Mudenagudi">Dr. Uma K Mudenagudi</a> as my advisor.
 * B.E Electronics & Communication in Visvesvaraya Technological University
 
 Work experience
 ======
 * ADAS Intern @ Continental AG, Bangalore, Dec 2019-Present
 
-  * Role
-   * Developing Deep learning algorithm for 3D LiDAR based 
+   * Working in R&D unit of ADAS under the mentorship of Dr.Venu gopalakrishna.
+   * Developing Deep learning algorithm on point cloud based 3D LiDAR for vehicle detection.
    * working multi modal sensors fusion of Camera, LiDAR & Camera, RADAR for object detection.
    
 
@@ -25,7 +25,7 @@ Skills
 * DL Algorithms- CNN, RNN, LSTM, Auto Encoders
 * Machine Learning algorithms - SVM, Linear regression, logistic regression, k-means clustring, k-Nearest Neighbors, PCA, Naive Bayes.
 * Programming Languages - Python
-* Optimization & Inference Tool - OpenVINO by Intel®
+* Optimization & Inference Tool - OpenVINO by Intel® 
 
 Courses
 ======
