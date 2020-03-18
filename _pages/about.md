@@ -33,3 +33,7 @@ Courses
 * Crash course on python, Coursera, by Google
 * Machine Learing Course, Courseera, by Prof. Andrew Ng
 
+Blog
+======
+<a href="https://gkadusumilli.github.io/" title="Blog">Blog</a>
+
