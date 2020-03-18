@@ -15,18 +15,21 @@ Work experience
 * ADAS Intern @ Continental AG, Bangalore, Dec 2019-Present
 
   * Role
-    * Developing 3D Object Detection algorithm for Point Cloud Data  
+   * Developing Deep learning algorithm for 3D LiDAR based 
+   * working multi modal sensors fusion of Camera, LiDAR & Camera, RADAR for object detection.
+   
 
 Skills
 ======
 * DL Frameworks- Tensorflow, Pytorch
-* Architectures- CNN, RNN, LSTM, Auto Encoders
-* Programming Languages- Python
-* OpenVINO
+* DL Algorithms- CNN, RNN, LSTM, Auto Encoders
+* Machine Learning algorithms - SVM, Linear regression, logistic regression, k-means clustring, k-Nearest Neighbors, PCA, Naive Bayes.
+* Programming Languages - Python
+* Optimization & Inference Tool - OpenVINO by Intel®
 
 Courses
 ======
-* Robotic Vision from Queensland University, Australia under the mentorship of Prof.Peter Corke
-* Crash course on python, Coursera offered by Google
-* Machine Learing Course, Courseera offered by Prof. Andrew Ng
+* MOOC Course on Robotic Vision from Queensland University, Australia under the mentorship of Prof.Peter Corke
+* Crash course on python, Coursera, by Google
+* Machine Learing Course, Courseera, by Prof. Andrew Ng
 
