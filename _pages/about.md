@@ -14,7 +14,7 @@ Work experience
 ======
 * ADAS Intern @ Continental AG, Bangalore, Dec 2019-Present
 
-   * Working in R&D unit of ADAS under the mentorship of Dr.Venu gopalakrishna.
+   * Working in R&D unit of ADAS under the mentorship of Dr.Venu gopalakrishna Y.R.
    * Developing Deep learning algorithm on point cloud based 3D LiDAR for vehicle detection.
    * working on multi modal sensors fusion approach of Camera, LiDAR & Camera, RADAR for object detection.
    
