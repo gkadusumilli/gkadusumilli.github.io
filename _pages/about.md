@@ -35,5 +35,5 @@ Courses
 
 Blog
 ======
-<a href="https://gkadusumilli.github.io/" title="Computer Vision and Machine Learning Blog">Blog</a>
+<a href="https://gkadusumilli.github.io/" title="Computer Vision and Machine Learning Blog">Computer Vision and Machine Learning Blog</a>
 
