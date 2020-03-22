@@ -23,6 +23,7 @@ Work experience
 Skills
 ======
 * DL Frameworks- Tensorflow, Pytorch
+* OpenCV
 * DL Algorithms- CNN, RNN, LSTM, Auto Encoders
 * Machine Learning algorithms - SVM, Linear regression, logistic regression, k-means clustring, k-Nearest Neighbors, PCA, Naive Bayes.
 * Programming Languages - Python
