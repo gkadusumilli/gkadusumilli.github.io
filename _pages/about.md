@@ -7,7 +7,7 @@ header:
 
 Education
 ======
-* M.Tech(Digital Electronics) in KLE Technological University, with <a href="https://scholar.google.co.in/citations?user=xBaqwmkAAAAJ&hl=en" title="Dr. Uma K Mudenagudi">Dr. Uma K Mudenagudi</a> as my advisor.
+* M.Tech(Digital Electronics) in KLE Technological University.
 
 * B.E Electronics & Communication in Visvesvaraya Technological University
 
