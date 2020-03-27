@@ -80,7 +80,7 @@ analytics:
 # Site Author
 author:
   name             : "Gopalakrishna Adusumilli"
-  avatar           : "/images/my_photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/myphoto.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "AI Algorithm Intern for ADAS at Continental Automotive"
   location         : "Bangalore, Karnataka"
   email            : "gk1291@outlook.com"
