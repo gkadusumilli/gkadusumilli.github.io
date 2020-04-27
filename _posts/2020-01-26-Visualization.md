@@ -7,6 +7,11 @@ header:
   caption: "[Pic courtesy](https://matplotlib.org)"
 excerpt: "Data Visualization, Matplotlib, contour, machinelearning, Neural Network, Deep Learning"
 mathjax: "true"
+toc: true
+toc_sticky: true
+sidebar:
+    nav: sidebar-sample
+    
 ---
 
 # Part-1
