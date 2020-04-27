@@ -7,6 +7,10 @@ header:
   image: "/images/perceptron/CNN.jpg"
 excerpt: "machinelearning, Neural Network, Deep Learning"
 mathjax: "true"
+toc: true
+toc_sticky: true
+sidebar:
+    nav: sidebar-sample
 
     
 ---
