@@ -1,5 +1,6 @@
 ---
-title: "About"
+layout: archive
+title: "CV"
 permalink: /about/
 header:
   image: "/images/about.jpg"
