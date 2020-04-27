@@ -6,6 +6,11 @@ header:
   image: "/images/Data_collection/Data_header.jpg"
 excerpt: "Data Collection, Data Processing, Input"
 mathjax: "true"
+toc: true
+toc_sticky: true
+sidebar:
+    nav: sidebar-sample
+    
 ---
 Many Lessons can be learned from experience in data collection. The following suggestions are written based on my experience which might enhance and facilitate data collection, although they are not inclusive.
 
