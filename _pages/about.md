@@ -59,7 +59,7 @@ Skills
 
 Courses
 ======
-*<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/DNJHMTSMUMTT" title="Deep learning specialization, Coursera"> Deep learning specialization, Coursera </a>
+* <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/DNJHMTSMUMTT" title="Deep learning specialization, Coursera"> Deep learning specialization, Coursera </a>
 * Crash course on python, Coursera, by Google
 * Machine Learing Course, Courseera, by Prof. Andrew Ng
 
