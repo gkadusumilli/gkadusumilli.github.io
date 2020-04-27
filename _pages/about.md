@@ -31,7 +31,7 @@ header:
 }
 </style>
 
-<button class="button" onclick="location.href='https://gkadusumilli.github.io/images/resume_git.pdf'" type="button">Download the PDF version</button>
+<button class="button" onclick="location.href='https://gkadusumilli.github.io/images/resume_git.pdf'" type="button">Download the Resume (PDF)</button>
 
 Education
 ======
