@@ -1,5 +1,5 @@
 ---
-layout: archive
+
 title: "CV"
 permalink: /about/
 header:
