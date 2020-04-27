@@ -92,7 +92,7 @@ plt.show()
 # Matplotlib applied
 Apply matplotlib visualizations to kaggle competitions for exploratory data analysis. Learn how to create barplots, histograms, subplot2grid, normalized plots, scatter plots, subplots, and kernel densityestimation plots.
 
-### Applying Matplotlib Visualizations to kaggle: Titanin
+### Applying Matplotlib Visualizations to kaggle: Titanic
 
 prepare the titanic data to plot
 
