@@ -6,6 +6,11 @@ header:
   
 excerpt: "GAN, Data augmentation,machinelearning, Neural Network, Deep Learning"
 mathjax: "true"
+toc: true
+toc_sticky: true
+sidebar:
+    nav: sidebar-sample
+    
 ---
 In my previous [Article](https://gkadusumilli.github.io/Dataaug/) we have learnt how data augmentation can be done using traditional techniques
 
