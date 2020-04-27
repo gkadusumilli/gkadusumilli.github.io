@@ -31,7 +31,7 @@ header:
 }
 </style>
 
-<button class="button" onclick="location.href='https://maelfabien.github.io/images/resume_git.pdf'" type="button">Download the PDF version</button>
+<button class="button" onclick="location.href='https://gkadusumilli.github.io/images/resume_git.pdf'" type="button">Download the PDF version</button>
 
 Education
 ======
@@ -59,7 +59,7 @@ Skills
 
 Courses
 ======
-* MOOC Course on Robotic Vision from Queensland University, Australia under the mentorship of Prof.Peter Corke
+*<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/DNJHMTSMUMTT" title="Deep learning specialization, Coursera"> Deep learning specialization, Coursera </a>
 * Crash course on python, Coursera, by Google
 * Machine Learing Course, Courseera, by Prof. Andrew Ng
 
