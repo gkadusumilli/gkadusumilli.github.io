@@ -33,6 +33,7 @@ header:
 
 <button class="button" onclick="location.href='https://gkadusumilli.github.io/images/resume_git.pdf'" type="button">Download the Resume (PDF)</button>
 
+<br>
 Education
 ======
 | Degree                               | University                                  | Start Date | End Date | SGPA        |
