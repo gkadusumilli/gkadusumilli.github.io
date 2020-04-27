@@ -2,7 +2,7 @@
 title: "Introduction to Convolutional Network"
 date: 2020-01-26
 tags: [machine learning, Neural Network, Deep Learning]
-%permalink: /portfolio/
+
 header:
   image: "/images/perceptron/CNN.jpg"
 excerpt: "machinelearning, Neural Network, Deep Learning"
