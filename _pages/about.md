@@ -36,10 +36,8 @@ header:
 <br>
 Education
 ======
-| Degree                               | University                                  | Start Date | End Date | SGPA        |
-|--------------------------------------|---------------------------------------------|------------|----------|-------------|
-| M.Tech in Digital Electronics        | KLE Technological University (Hubli)        | 10.2018    | Pursuing | 8.71        |
-| B.E in Electronics and Communication | Visvesvaraya Technological University (VTU) | 08.2013    | 07.2018  | First Class |
+* M.Tech in Digital Electronics, KLE Technological University
+* B.E in Electronics and Communication, Visvesvaraya Technological University, Belgaum
 
 
 Work experience
