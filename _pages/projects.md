@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: Big Data, A Cassandra DB for geo-political data (GDELT)
-permalink: /projects/
+permalink: /portfolio/
 author_profile: false
 classes: wide
 
