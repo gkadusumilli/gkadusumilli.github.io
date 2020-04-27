@@ -11,6 +11,7 @@ toc: true
 toc_sticky: true
 sidebar:
     nav: sidebar-sample
+    
 ---
 
 In this article, we will understand the concepts of Convolutional Neural Networks (CNN's).
