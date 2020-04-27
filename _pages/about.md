@@ -67,6 +67,12 @@ Courses
 * Crash course on python, Coursera, by Google
 * Machine Learing Course, Courseera, by Prof. Andrew Ng
 
+Writing
+======
+
+* AI Writer, Analytics Vidya 
+* Computer Vision Blog, [gkadusumilli.github.io](https://gkadusumilli.github.io)
+
 Blog
 ======
 <a href="https://gkadusumilli.github.io/" title="Computer Vision and Machine Learning Blog">Computer Vision and Machine Learning Blog</a>
