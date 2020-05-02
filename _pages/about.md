@@ -48,8 +48,8 @@ Work experience
 * ADAS Intern @ Continental AG, Bangalore, Dec 2019-Present
 
    * Working with R&D unit of ADAS
-   * Developing an end-to-end deep learning algorithm for vehicle detection using point cloud based 3D LiDAR 
-   * working on multi modal sensor fusion of camera and LiDAR.
+   * Developing an end-to-end deep learning algorithm for vehicle detection using multi modal sensor fusion of camera and LiDAR
+  
    
 
 Skills
