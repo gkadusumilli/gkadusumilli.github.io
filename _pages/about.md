@@ -37,8 +37,8 @@ header:
 Education
 ======
 
-| Degree | University | Start date | End date | GPA |
-| --- | --- | --- | --- | --- |
+| Degree | University |
+| --- | --- |
 | M.Tech in Digital Electronics | KLE Technological University |
 | B.E in Electronics and Communication | Visvesvaraya Technological University |
 
