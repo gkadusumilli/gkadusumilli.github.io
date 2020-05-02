@@ -39,8 +39,8 @@ Education
 
 | Degree | University | Start date | End date | GPA |
 | --- | --- | --- | --- | --- |
-| M.Tech in Digital Electronics | KLE Technological University | 10.2018 | Pursuing | 8.71 |
-| B.E in Electronics and Communication | Visvesvaraya Technological University | 08.2013 | 07.2018 | First Class |
+| M.Tech in Digital Electronics | KLE Technological University |
+| B.E in Electronics and Communication | Visvesvaraya Technological University |
 
 
 Work experience
