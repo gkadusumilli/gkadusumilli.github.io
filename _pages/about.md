@@ -11,6 +11,7 @@ I'm Gopal, pursuing a master's in Digital Electronics at KLE Technological Unive
 I'm a programmer who tweaks, compiles, and optimizes the code to make sure it is production-ready. This is what I love to do.
 
 
+
 Education
 ======
 
