@@ -1,37 +1,16 @@
 ---
 
-title: "CV"
+
 permalink: /about/
 header:
   image: "/images/about.jpg"
 ---
 
-<style>
-.button {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #7187bd;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
+About me
+======
+I'm Gopal, pursuing a master's in Digital Electronics at KLE Technological University, Hubbali. Currently Intern at Continental R&D. I enjoy tinkering with algorithms, Blogging, working with a community.
 
-.button:hover {background-color: #7187bd}
-
-.button:active {
-  background-color: #7187bd;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-</style>
-
-<button class="button" onclick="location.href='https://github.com/gkadusumilli/'" type="button">Github</button>
+I'm a programmer who tweaks, compiles, and optimizes the code to make sure it is production-ready. This is what I love to do.
 
 
 Education
@@ -76,4 +55,31 @@ Writing
 Blog
 ======
 <a href="https://gkadusumilli.github.io/" title="Computer Vision and Machine Learning Blog">Computer Vision and Machine Learning Blog</a>
+
+<style>
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #7187bd;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #7187bd}
+
+.button:active {
+  background-color: #7187bd;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+
+<button class="button" onclick="location.href='https://github.com/gkadusumilli/'" type="button">Github</button>
 
