@@ -6,8 +6,6 @@ header:
   image: "/images/about.jpg"
 ---
 
-About me
-======
 I'm Gopal, pursuing a master's in Digital Electronics at KLE Technological University, Hubbali. Currently Intern at Continental R&D. I enjoy tinkering with algorithms, Blogging, working with a community.
 
 I'm a programmer who tweaks, compiles, and optimizes the code to make sure it is production-ready. This is what I love to do.
