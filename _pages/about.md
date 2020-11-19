@@ -48,7 +48,7 @@ Courses
 Writing
 ======
 
-* AI Writer, Analytics Vidya 
+* AI Writer @ [Towards Data Science](https://medium.com/@gkadusumilli)
 * Computer Vision Blog, [gkadusumilli.github.io](https://gkadusumilli.github.io)
 
 Blog
