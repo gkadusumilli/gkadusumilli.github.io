@@ -1,6 +1,6 @@
 ---
 title: "A tutorial on Jupyter Notebooks"
-date: 2020-06-12
+date: 2021-02-02
 tags: [machine learning, ComputerVision]
 header:
   image: "/images/jupy_homepage.png"
@@ -9,9 +9,7 @@ mathjax: "true"
 toc: true
 toc_sticky: true
 sidebar:
-    nav: sidebar-sample
-
-    
+    nav: sidebar-sample    
 ---
 
 Hi all,
