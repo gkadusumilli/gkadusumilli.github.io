@@ -89,20 +89,20 @@ jupyter notebook
 
 ```
 
-####Unable to start the Jupyter Notebook Server?
+#### Unable to start the Jupyter Notebook Server?
 
 Try troubleshooting the problem with the help if this post [What to do when things go wrong?](https://jupyter-notebook.readthedocs.io/en/stable/troubleshooting.html#what-to-do-when-things-go-wrong)
 
-####Notebook Server
+#### Notebook Server
 
 When you run the **Jupyter Notebook** command, the server home should open in your browser. By default, the notebook server runs at
 ***http://localhost:8888***
 
-####Jupyter Notebook Server Tabs
+#### Jupyter Notebook Server Tabs
 
 The tabs at the top show ***Files, Running***, and ***Cluster***.  The Running tab will list all the currently running notebooks.
 
-####Shutting down Jupyter
+#### Shutting down Jupyter
 we can shutdown individual notebooks by marking the checkbox next to the notebook on the server home and clicking "Shutdown." Make sure you've saved your work before you do this though! Any changes since the last time you saved will be lost. You'll also need to rerun the code the next time you run the notebook.
 
 You can shutdown the entire server by pressing control + C twice in the terminal. Again, this will immediately shutdown all the running notebooks, so make sure your work is saved!
