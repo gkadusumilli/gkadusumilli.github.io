@@ -138,3 +138,7 @@ Calculating metrics for class dog
 * <a href="https://www.codecogs.com/eqnedit.php?latex=Recall&space;=&space;\frac{20}{20&space;&plus;&space;9}&space;=&space;68.96%" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Recall&space;=&space;\frac{20}{20&space;&plus;&space;9}&space;=&space;68.96%" title="Recall = \frac{20}{20 + 9} = 68.96%" /></a>
 
 * <a href="https://www.codecogs.com/eqnedit.php?latex=F-Score&space;=&space;\frac{2&space;*&space;58.8}{58.8&space;&plus;&space;68.96}&space;=&space;92.04" target="_blank"><img src="https://latex.codecogs.com/gif.latex?F-Score&space;=&space;\frac{2&space;*&space;58.8}{58.8&space;&plus;&space;68.96}&space;=&space;92.04" title="F-Score = \frac{2 * 58.8}{58.8 + 68.96} = 92.04" /></a>
+
+Similarly, let's calculate the accuracy of Class Cat, let us see the values from the confusion matrix
+
+![Class Cat](/images/Cat_class.png)
