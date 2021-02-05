@@ -11,7 +11,7 @@ toc_sticky: true
 sidebar:
     nav: sidebar-sample    
 ---
-comments_id: 35
+comments_id: 1
 
 Anyone familiar with the confusion matrix knows that most of the time it is explained for a binary classification problem. Well, in this article we will extend applying confusion matrix on multi-class machine learning models.
 
