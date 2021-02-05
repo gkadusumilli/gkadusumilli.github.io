@@ -1,5 +1,5 @@
 ---
-title: "All about Confusion matrix"
+title: "Machine learning metrics - Precision, Recall, F-Score for multi-class classification models"
 date: 2021-02-04
 tags: [machine learning, ComputerVision]
 header:
@@ -95,7 +95,7 @@ Accuracy is calculated as:
 
 Recall is calculated as:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=Recall&space;=&space;\frac{TP}{TP&space;&plus;&space;FP}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Recall&space;=&space;\frac{TP}{TP&space;&plus;&space;FP}" title="Recall = \frac{TP}{TP + FP}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=Recall&space;=&space;\frac{TP}{TP&space;&plus;&space;FN}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Recall&space;=&space;\frac{TP}{TP&space;&plus;&space;FN}" title="Recall = \frac{TP}{TP + FN}" /></a>
 
 **Precision** (*also known as specificity*) is the opposite of recall. It tells us how many times did the model ***incorrectly*** diagnose as a positive class (FP)
 
@@ -133,12 +133,69 @@ Let's calculate the accuracy of class Dog, let us see the values from the confus
 
 Calculating metrics for class dog
 
-* <a href="https://www.codecogs.com/eqnedit.php?latex=Precision&space;=&space;\frac{20}{20&space;&plus;&space;14}&space;=&space;58.8%" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Precision&space;=&space;\frac{20}{20&space;&plus;&space;14}&space;=&space;58.8%" title="Precision = \frac{20}{20 + 14} = 58.8%" /></a>
+* <a href="https://www.codecogs.com/eqnedit.php?latex=Precision&space;=&space;\frac{20}{20&space;&plus;&space;14}&space;=&space;0.58" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Precision&space;=&space;\frac{20}{20&space;&plus;&space;14}&space;=&space;0.58" title="Precision = \frac{20}{20 + 14} = 0.58" /></a>
 
-* <a href="https://www.codecogs.com/eqnedit.php?latex=Recall&space;=&space;\frac{20}{20&space;&plus;&space;9}&space;=&space;68.96%" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Recall&space;=&space;\frac{20}{20&space;&plus;&space;9}&space;=&space;68.96%" title="Recall = \frac{20}{20 + 9} = 68.96%" /></a>
+* <a href="https://www.codecogs.com/eqnedit.php?latex=Recall&space;=&space;\frac{20}{20&space;&plus;&space;9}&space;=&space;0.689" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Recall&space;=&space;\frac{20}{20&space;&plus;&space;9}&space;=&space;0.689" title="Recall = \frac{20}{20 + 9} = 0.689" /></a>
 
-* <a href="https://www.codecogs.com/eqnedit.php?latex=F-Score&space;=&space;\frac{2&space;*&space;58.8}{58.8&space;&plus;&space;68.96}&space;=&space;92.04" target="_blank"><img src="https://latex.codecogs.com/gif.latex?F-Score&space;=&space;\frac{2&space;*&space;58.8}{58.8&space;&plus;&space;68.96}&space;=&space;92.04" title="F-Score = \frac{2 * 58.8}{58.8 + 68.96} = 92.04" /></a>
+* <a href="https://www.codecogs.com/eqnedit.php?latex=F&space;-&space;Score&space;=&space;2*&space;(\frac{58.82&space;*&space;68.96}{58.82&space;&plus;&space;68.96})&space;=&space;0.63" target="_blank"><img src="https://latex.codecogs.com/gif.latex?F&space;-&space;Score&space;=&space;2*&space;(\frac{58.82&space;*&space;68.96}{58.82&space;&plus;&space;68.96})&space;=&space;0.63" title="F - Score = 2* (\frac{58.82 * 68.96}{58.82 + 68.96}) = 0.63" /></a>
+
 
 Similarly, let's calculate the accuracy of Class Cat, let us see the values from the confusion matrix
 
 ![Class Cat](/images/Cat_class.png)
+
+* TP = 15
+
+* TN = (20 + 26 + 8 + 8) = 62
+
+* FP = (1 + 3) = 4
+
+* FN = (6 + 4) = 10
+
+
+Similarly, we can calculate the measures for the other classes. Here is a table that shows the values of each measure for each class.
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-73oq">Class</th>
+    <th class="tg-0pky"><span style="font-weight:bold;color:#00009B">Precision</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold;color:#00009B">Recall</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold;color:#00009B">F1 - Score</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold;color:#00009B">Dog</span></td>
+    <td class="tg-0pky">0.58</td>
+    <td class="tg-0pky">0.68</td>
+    <td class="tg-0pky">0.63</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold;color:#00009B">Cat</span></td>
+    <td class="tg-0pky">0.78</td>
+    <td class="tg-0pky">0.60</td>
+    <td class="tg-0pky">0.68</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold;color:#00009B">Rat</span></td>
+    <td class="tg-0pky">0.70</td>
+    <td class="tg-0pky">0.68</td>
+    <td class="tg-0pky">0.69</td>
+  </tr>
+</tbody>
+</table>
+
+
+
+
+
