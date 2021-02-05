@@ -11,6 +11,8 @@ toc_sticky: true
 sidebar:
     nav: sidebar-sample    
 ---
+comments_id: 35
+
 Anyone familiar with the confusion matrix knows that most of the time it is explained for a binary classification problem. Well, in this article we will extend applying confusion matrix on multi-class machine learning models.
 
 A confusion matrix is represented in a tabular format to visualize the performance of our prediction model. Every entry logged in the confusion matrix (table) indicates the number of predictions made by the model where it classified the classes correctly or incorrectly.
