@@ -155,45 +155,11 @@ Similarly, let's calculate the accuracy of Class Cat, let us see the values from
 
 Similarly, we can calculate the measures for the other classes. Here is a table that shows the values of each measure for each class.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-73oq">Class</th>
-    <th class="tg-0pky"><span style="font-weight:bold;color:#00009B">Precision</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold;color:#00009B">Recall</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold;color:#00009B">F1 - Score</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky"><span style="font-weight:bold;color:#00009B">Dog</span></td>
-    <td class="tg-0pky">0.58</td>
-    <td class="tg-0pky">0.68</td>
-    <td class="tg-0pky">0.63</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><span style="font-weight:bold;color:#00009B">Cat</span></td>
-    <td class="tg-0pky">0.78</td>
-    <td class="tg-0pky">0.60</td>
-    <td class="tg-0pky">0.68</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><span style="font-weight:bold;color:#00009B">Rat</span></td>
-    <td class="tg-0pky">0.70</td>
-    <td class="tg-0pky">0.68</td>
-    <td class="tg-0pky">0.69</td>
-  </tr>
-</tbody>
-</table>
+| Class | Precision | Recall | F1 - Score |
+|-------|-----------|--------|------------|
+| Dog   | 0.58      | 0.68   | 0.63       |
+| Cat   | 0.78      | 0.60   | 0.68       |
+| Rat   | 0.70      | 0.68   | 0.69       |
 
 
 
