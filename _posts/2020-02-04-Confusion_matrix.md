@@ -4,7 +4,7 @@ date: 2021-02-04
 tags: [machine learning, ComputerVision]
 header:
   image: "/images/confusion_matric.jpg"
-excerpt: "jupyter notebook"
+excerpt: "Confusion matrix, Machine learning metrics"
 mathjax: "true"
 toc: true
 toc_sticky: true
