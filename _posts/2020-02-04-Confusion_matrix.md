@@ -79,7 +79,7 @@ Now we use these measures from the confusion matrix to calculate the ML metrics 
 
 **3. F-Score**
 
-Let's understand each metric detail :student:	
+Let's understand each metric detail :boom:
 
 ### 1. Accuracy
 
@@ -161,7 +161,21 @@ Similarly, we can calculate the measures for the other classes. Here is a table 
 | Cat   | 0.78      | 0.60   | 0.68       |
 | Rat   | 0.70      | 0.68   | 0.69       |
 
+### Identifying an appropriate metric
 
+Choosing a better metric depends on use cases, for example, In health diagnostics, we may consider the recall metric which indicates how many of the sick patients our model incorrectly diagnosed as well. TO identify the most appropriate metric for your problem, ask yourself which of the two possible false predictions is more consequential: **False Positive (FP)** or **False Negative (FN)**. If your answer is FP, then you choose for precision. If FN is more significant, then recall is will be the metric.
 
+Let us consider another example, ***Spam email classifier**, 
 
+Which of the two false predictions would you care about more:
 
+1. Falsely classifying a non-spam email as spam
+
+2. Falsely claiming a spam email as non-span.
+
+I believe we care more about point 2 since we don't want the receiver to lose an email because our model misclassified it as spam. We want to block spam and at the same time avoid losing a non-spam email. So in this use case, **precision** can be a suitable metric to use.
+
+In some use cases, we care about the precision and recall at the same time. That's called an F-Score.
+
+That's it !!!
+Let's catch up in the next article :car: discussing **Object detector evaluation metrics** 
