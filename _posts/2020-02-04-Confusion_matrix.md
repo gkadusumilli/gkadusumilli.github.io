@@ -183,10 +183,11 @@ In some use cases, we care about the precision and recall at the same time. That
 That's it !!!
 Let's catch up in the next article :car: discussing **Object detector evaluation metrics** 
 
-<script src="https://utteranc.es/client.js"
-        repo="gkadusumilli.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+<script
+  async
+  src="https://utteranc.es/client.js"
+  repo="gkadusumilli/gkadusumilli.github.io"
+  issue-term="title"
+  theme="github-light"
+  crossorigin="anonymous"
+></script>
