@@ -40,4 +40,12 @@ layout: archive
   crossorigin="anonymous"
 ></script>
 
+<section class="single">
+	<div class="wrap">
+		{{ page.content }}
+		{% if page.comments_id %}
+			{% include comments.html %}
+		{% endif %}
+	</div>
+</section>
 
