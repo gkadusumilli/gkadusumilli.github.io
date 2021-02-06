@@ -12,7 +12,7 @@ toc_sticky: true
 sidebar:
     nav: sidebar-sample
 
-    
+comments_id: 1    
 ---
 
 In this article, we will understand the concepts of Convolutional Neural Networks (CNN's).
