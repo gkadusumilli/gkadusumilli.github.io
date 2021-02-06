@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 sidebar:
     nav: sidebar-sample    
-comments_id: 1
+
 ---
 
 
