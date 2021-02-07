@@ -117,3 +117,14 @@ What do CNN layers learn?
 * The middle layers learn filters the detect parts of objects. For face detection, they might learn to respond to eyes, noses, etc.
 
 * The last layers have higher representations: they learn to recognize full objects, with different shapes, and positions.
+
+
+<script
+  async
+  src="https://utteranc.es/client.js"
+  repo="gkadusumilli/gkadusumilli.github.io"
+  issue-term="title"
+  theme="github-light"
+  crossorigin="anonymous"
+></script>
+
