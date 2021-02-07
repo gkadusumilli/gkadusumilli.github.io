@@ -209,3 +209,11 @@ This will open up the slideshow in your browser so you can present it.
 Special thanks to the Mat Leonard for the instructions
 
 
+<script
+  async
+  src="https://utteranc.es/client.js"
+  repo="gkadusumilli/gkadusumilli.github.io"
+  issue-term="title"
+  theme="github-light"
+  crossorigin="anonymous"
+></script>
