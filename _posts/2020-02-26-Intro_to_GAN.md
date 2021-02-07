@@ -255,3 +255,11 @@ X_train=X_train.reshape(60000,784)
 ```python
 train(X_train,epochs=5,batch_size=128)
 ```
+<script
+  async
+  src="https://utteranc.es/client.js"
+  repo="gkadusumilli/gkadusumilli.github.io"
+  issue-term="title"
+  theme="github-light"
+  crossorigin="anonymous"
+></script>
