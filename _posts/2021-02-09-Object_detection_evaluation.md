@@ -122,5 +122,21 @@ We calculate the IoU by dividing the area of overlap by the area of the union
 For example:
 Microsoft COCO, use mAP@0.5 (IoU threshold of 0.5) or mAP @ 0.75 (IoU threshold of 0.75). If the IoU value is above threshold, prediction is considered as a True positive (TP); if it is below threshold, it is considered as False Positive (FP).
 
-**Precision-Recall curve (PR curve)
+**Precision-Recall curve (PR curve)**
+
+With the TP and FP defined, we can now calculate the precision and recall of our detection for a given class across the testing dataset.
+
+<img src="https://latex.codecogs.com/gif.latex?Recall&space;=&space;\frac{TP}{TP&space;&plus;&space;FN}" title="Recall = \frac{TP}{TP + FN}" />
+
+<img src="https://latex.codecogs.com/gif.latex?Precision&space;=&space;\frac{TP}{TP&space;&plus;&space;FP}" title="Precision = \frac{TP}{TP + FP}" />
+
+
+<script
+  async
+  src="https://utteranc.es/client.js"
+  repo="gkadusumilli/gkadusumilli.github.io"
+  issue-term="title"
+  theme="github-light"
+  crossorigin="anonymous"
+></script>
 
