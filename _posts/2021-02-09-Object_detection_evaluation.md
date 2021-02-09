@@ -87,7 +87,7 @@ NMS algorithm
 
 To evaluate the performance of the object detection model, we look for two metrics **Frames per second** and **mean average precision (mAP)**.
 
-### Frames Per Second (FPS) to measure detection speed.
+#### Frames Per Second (FPS) to measure detection speed.
 
 FPS metric is used to measure the detection speed. For example, Faster R-CNN operates at 7 FPS, whereas SSD operates at 59 FPS.Higher the speed better the model for deployment.
 
@@ -95,9 +95,32 @@ Example:
 
 ![fps](/images/map_fps.png)
 
-### Mean Average Precision (mAP) 
+#### Mean Average Precision (mAP) 
 
 When we study research papers we often see mAP score while evaluating the performance of the model. Let's know more about this metric
 
 mAP metric has a scale from 0 to 100, and higher the mAP values are typically better. This metric value is different from the accuracy metric in classification tasks.
+
+**Intersection over union (IoU)**
+
+This measure evaluates the overlap between bounding boxes: <ins>**the ground truth bounding box (B_groundtruth)**</ins> and <ins>**predicted bounding box (B_predicted)**</ins>
+
+The intersection over the union value ranges from 0 (no overlap) to 1 (thw two bounding boxes overlap each other 100%).
+
+![IOU](/images/IOU.png)
+
+To calculate the IoU of a prediction
+
+* The ground truth BB: The annotated bounding box drawn during the labelling process
+
+* The predicted bounding box 
+
+We calculate the IoU by dividing the area of overlap by the area of the union
+
+<img src="https://latex.codecogs.com/gif.latex?IoU&space;=&space;\frac{B_{ground&space;truth}&space;\cap&space;B_{predicted}}{B_{ground&space;truth}&space;\cup&space;B_{predicted}}" title="IoU = \frac{B_{ground truth} \cap B_{predicted}}{B_{ground truth} \cup B_{predicted}}" />
+
+For example:
+Microsoft COCO, use mAP@0.5 (IoU threshold of 0.5) or mAP @ 0.75 (IoU threshold of 0.75). If the IoU value is above threshold, prediction is considered as a True positive (TP); if it is below threshold, it is considered as False Positive (FP).
+
+**Precision-Recall curve (PR curve)
 
