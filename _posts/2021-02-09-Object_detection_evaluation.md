@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 sidebar:
     nav: sidebar-sample
-
+---
 
 Prior understansing about the object detection systems like **R-CNN**, **SSD** and **YOLO**, we should know the 
 common similarity (standard approach) used to detect objects and metrics defined to evaluate the performance of the object detection model.
@@ -28,7 +28,7 @@ Let's begin
 
 ### 1. Region proposals
 
-![RP](/images/region_proposals.jfif)
+![RP](/images/region_proposals.gif)
 
 Region proposals algorithm genrates multiple Region of Interest (RoIs) assuming high likelihood of containing an object. Each generated bounding boxes has an **objectness score**.
 
@@ -55,14 +55,47 @@ The right approach is to use problem-specific informations to reduce the number 
 
 ### 2. Network predictions
 
+We use pretrained CNN network trained on diverse datasets such as COCO or ImageNet dataset for the feature extraction to extract features from the input image and to use these features to determine the class of the image. 
+
+In this step, the network analyzes all the regions that have been identified as having a high likelihood of containing an object and makes two predictions for each region.
+
+* Bounding-box prediction - The coordinates that locate the box surrounding the object. The bounding box coordinates are represented as the tuple (x, y, w, h), where <ins>"x" and "y" are the coordinates of the center point of the bounding box and "w" and "h" are the width and height of the box</ins>
+
+* Class prediction: The softmax function that predicts the class probability for each object.
 
 2. Determining the location of the object.
+
+![Multiple bounding boxes](/images/mult_BB.png)
+
+In the Region proposals step multiple regions are proposed, each object will always have multiple bounding boxes surrounding with the correct classification. If you look at the above image, the network was clearly able to find the object and succesfully classify it.But there are  five RoIs produced in the previous steps: hence the five bounding boxes around the dog. But we need 1 bounding box per object.
+
+To adress multiple bounding box issue, non max supression will be helpful.
+
+### 3. Non-maximum supression (NMS)
+
+The NMS is to reduce the number of candidate boxes to only one bounding box for each object.
+
+NMS algorithm 
+
+1. Discard all bounding boxes that have predictions that are less than a certain threshold, called the ***confidence threshold***. The box will be supressed if the prediction probability is less than the set threshold.
+
+2. Look at all the remaining boxes, and select the bounding box with the highest probability.
+
+3. Calculate the overlap of the remaining boxes that have the same class predictions. Bounding boxes that have high overlap with each other and that predict the same class are averaged toghether. This overlap is called ***intersection over union (IoU)***.
+
+4. Supress any box that has an IoU value smaller than a certain threshold (called the NMS threshold). Usually the NMS threshold is equal to 0.5, but it is tunable.
     
+### 4. Object detection metrics
+
 To evaluate the performance of the object detection model, we look for two metrics **Frames per second** and **mean average precision (mAP)**.
 
 ### Frames Per Second (FPS) to measure detection speed.
 
 FPS metric is used to measure the detection speed. For example, Faster R-CNN operates at 7 FPS, whereas SSD operates at 59 FPS.Higher the speed better the model for deployment.
+
+Example:
+
+![fps](/images/map_fps.png)
 
 ### Mean Average Precision (mAP) 
 
@@ -70,4 +103,3 @@ When we study research papers we often see mAP score while evaluating the perfor
 
 mAP metric has a scale from 0 to 100, and higher the mAP values are typically better. This metric value is different from the accuracy metric in classification tasks.
 
-Prior understandinf 
