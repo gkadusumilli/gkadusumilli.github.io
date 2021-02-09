@@ -63,8 +63,6 @@ In this step, the network analyzes all the regions that have been identified as 
 
 * Class prediction: The softmax function that predicts the class probability for each object.
 
-2. Determining the location of the object.
-
 ![Multiple bounding boxes](/images/mult_BB.png)
 
 In the Region proposals step multiple regions are proposed, each object will always have multiple bounding boxes surrounding with the correct classification. If you look at the above image, the network was clearly able to find the object and succesfully classify it.But there are  five RoIs produced in the previous steps: hence the five bounding boxes around the dog. But we need 1 bounding box per object.
