@@ -124,6 +124,16 @@ What do CNN layers learn?
 
 <link rel="https://unpkg.com/applause-button/dist/applause-button.css" />
 
+<script
+  async
+  src="https://utteranc.es/client.js"
+  repo="gkadusumilli/gkadusumilli.github.io"
+  issue-term="title"
+  theme="github-light"
+  crossorigin="anonymous"
+></script>
+
+
 <head>
   <!-- add the button style & script -->
   <link rel="stylesheet" href="applause-button.css" />
@@ -133,14 +143,5 @@ What do CNN layers learn?
   <!-- add the button! -->
   <applause-button style="width: 58px; height: 58px;"/>
 </body> 
-
-<script
-  async
-  src="https://utteranc.es/client.js"
-  repo="gkadusumilli/gkadusumilli.github.io"
-  issue-term="title"
-  theme="github-light"
-  crossorigin="anonymous"
-></script>
 
 
