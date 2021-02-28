@@ -139,7 +139,7 @@ What do CNN layers learn?
   <script src="dist/applause-button.js"></script>
 </head>
 <body>
-  <!-- add the button! -->
+  <!-- add the button! --->
   <applause-button style="width: 58px; height: 58px;"/>
 </body>
 
