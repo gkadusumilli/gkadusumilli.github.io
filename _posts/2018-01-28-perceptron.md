@@ -12,7 +12,10 @@ toc_sticky: true
 sidebar:
     nav: sidebar-sample
 
-comments_id: 1    
+comments_id: 1  
+<!-- In the <head> of your HTML page. -->
+<script src="https://unpkg.com/clap-button-com/dist/main.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/clap-button-com/dist/styles.css" />  
 ---
 
 In this article, we will understand the concepts of Convolutional Neural Networks (CNN's).
@@ -118,15 +121,8 @@ What do CNN layers learn?
 
 * The last layers have higher representations: they learn to recognize full objects, with different shapes, and positions.
 
-<head>
-  <!-- add the button style & script -->
-  <link rel="stylesheet" href="dist/applause-button.css" />
-  <script src="dist/applause-button.js"></script>
-</head>
-<body>
-  <!-- add the button! -->
-  <applause-button style="width: 58px; height: 58px;"/>
-</body>
+<button class="clap-button" data-dev="true"></button>
+
 
 <script
   async
