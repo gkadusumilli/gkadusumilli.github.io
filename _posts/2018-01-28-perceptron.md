@@ -133,15 +133,13 @@ What do CNN layers learn?
   crossorigin="anonymous"
 ></script>
 
-<script>
 <head>
   <!-- add the button style & script -->
-  <link rel="stylesheet" href="applause-button.css" />
-  <script src="applause-button.js"></script>
+  <link rel="stylesheet" href="dist/applause-button.css" />
+  <script src="dist/applause-button.js"></script>
 </head>
 <body>
   <!-- add the button! -->
-  <button class="clap-button"></button>
-</body> 
-</script>
+  <applause-button style="width: 58px; height: 58px;"/>
+</body>
 
