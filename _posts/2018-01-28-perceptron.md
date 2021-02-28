@@ -141,7 +141,7 @@ What do CNN layers learn?
 </head>
 <body>
   <!-- add the button! -->
-  <applause-button style="width: 58px; height: 58px;"/>
+  <button class="clap-button"></button>
 </body> 
 </script>
 
