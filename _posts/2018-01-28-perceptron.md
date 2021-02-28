@@ -120,7 +120,10 @@ What do CNN layers learn?
 * The last layers have higher representations: they learn to recognize full objects, with different shapes, and positions.
 
 
+<script src="https://unpkg.com/clap-button-com/dist/main.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/clap-button-com/dist/styles.css" />
 
+<button class="clap-button"></button>
 
 <script
   async
