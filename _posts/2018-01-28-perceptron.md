@@ -120,10 +120,19 @@ What do CNN layers learn?
 * The last layers have higher representations: they learn to recognize full objects, with different shapes, and positions.
 
 
-<script src="https://unpkg.com/clap-button-com/dist/main.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/clap-button-com/dist/styles.css" />
+<script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
 
-<button class="clap-button"></button>
+<link rel="https://unpkg.com/applause-button/dist/applause-button.css" />
+
+<head>
+  <!-- add the button style & script -->
+  <link rel="stylesheet" href="applause-button.css" />
+  <script src="applause-button.js"></script>
+</head>
+<body>
+  <!-- add the button! -->
+  <applause-button style="width: 58px; height: 58px;"/>
+</body> 
 
 <script
   async
